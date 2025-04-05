@@ -28,7 +28,6 @@ export default tseslint.config(
           endOfLine: "auto",
           useTabs: false,
           printWidth: 120,
-          jsxSingleQuote: true,
         },
       ],
       "no-console": "error",
