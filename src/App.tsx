@@ -1,7 +1,14 @@
 import "./styles/index.css";
+// import ThemesControl from "components/theme-control/ThemesControl";
+import { ThemesControl } from "components";
 
 const App = () => {
-  return <h1 className="font-bold text-red-500 underline">App</h1>;
+  return (
+    <div className="bg-baseBackground h-screen w-screen">
+      <h1 className="text-primary text-3xl font-bold underline">Hello Mason</h1>
+      <ThemesControl />
+    </div>
+  );
 };
 
 export default App;
