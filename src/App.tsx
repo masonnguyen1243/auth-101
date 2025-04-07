@@ -1,12 +1,13 @@
+import { MainRouter } from "routes";
 import "./styles/index.css";
-// import ThemesControl from "components/theme-control/ThemesControl";
 import { ThemesControl } from "components";
 
 const App = () => {
   return (
-    <div className="bg-baseBackground h-screen w-screen">
-      <h1 className="text-primary text-3xl font-bold underline">Hello Mason</h1>
+    <div className="h-screen w-screen bg-baseBackground">
+      <h1 className="text-3xl font-bold text-primary underline">Hello Mason</h1>
       <ThemesControl />
+      <MainRouter />
     </div>
   );
 };
