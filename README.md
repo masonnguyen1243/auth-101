@@ -15,7 +15,7 @@ This is a modern React frontend project built with [Vite](https://vitejs.dev/), 
 
 ## 📦 Installation
 
-First, make sure you have [Node.js](https://nodejs.org/) and [NPM] installed.
+First, make sure you have [Node.js](https://nodejs.org/) installed.
 
 1. Clone the repo:
 
